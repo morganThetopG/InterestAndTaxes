@@ -1,5 +1,6 @@
 from time import sleep
-un=float(input("enter a number: "))
+un=float(input("Choose a Starting Number: "))
+uy=float(input("Choose a Ending Year: "))
 print("\n The Number You Entered Will Enter The Intrest Simulator \n")
 I=0
 while True:
@@ -11,6 +12,6 @@ while True:
     print(str(output)+"\n")
     print(str(outpu)+"\n")
     un=outpu
-    if I>68:
+    if I>uy:
         break
 print("Thank You For Using Morgan's Tax Simulator")
